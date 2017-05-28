@@ -1,0 +1,206 @@
+body {
+	margin: 0 0 0 0;
+	padding-top: -1px;
+	font-family: arial;
+	font-size: 14px;
+}
+.container {
+    position: relative;
+}
+.center{
+	margin:auto;
+	right: 0px;
+  width: 90%;
+}
+nav{
+	background-color: #000000;
+	min-height: 50px;
+	max-height: 100px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+nav li a.nav{
+    padding-top: 15px;
+    padding-left: 10px;
+
+}
+.head{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+nav li a:hover {
+    color: #ffce00;
+}
+header{
+	clear: both;
+	height: 100px;
+	padding-bottom: 25px;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+header li a.head{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+header li a:hover {
+    color: #ffce00;
+}
+.site-header{
+	border-top: 1px solid #85a3cf;
+	border-bottom: 1px solid #85a3cf;
+	background: #3063ae url(img/header-bg.jpg);
+}
+.logo{
+	padding-top: 30px;
+	float: left;
+}
+.head-menu{
+	float :left;
+	padding-top: 50px;
+}
+.home-header{
+	clear: both;
+	background: #f7f7f7;
+	min-height: 450px;
+	padding-top: 50px;
+	border-color: #f7f7f7;
+	border-bottom: 2px;
+	border-bottom-style: solid; 
+}
+.left-iklan{
+	float: left;
+	width: 707px;
+	padding-right: 75px;
+}
+.right-top-iklan{
+	float: left;
+	width: 350px;
+	margin: 0px;
+}
+.right-bottom-iklan{
+	float: left;
+	width: 350px;
+	margin: 0px;
+}
+.content {
+	text-align: center;
+	clear: both;
+}
+.content-kredit{
+	float: left;
+	padding: 1%;
+	width: 250px;
+	height: 300px;
+}
+
+a.button-yellow{
+	background :linear-gradient(to bottom, #ffca00 0%, #f2b308 100%);
+	border-radius: 5px;
+	color: #000000;
+	font-size : 18px;
+	text-shadow: #fff 1px 1px 1px;
+	text-decoration : none;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0px;
+}
+
+a:hover.button-yellow {
+	background :linear-gradient(to top, #ffca00 0%, #f2b308 100%);
+
+}
+.tata-cara{
+	background-color:#f6f6f6;
+	width: 100%;
+	clear: both; 
+}
+.foot{
+	clear: both;
+}
+
+.foot-first{
+	width: 20%;
+	float: left;
+	text-align: justify; 
+	margin: 0px;
+	padding-right: 2%;
+}
+.foot-second{
+	width: 20%;
+	float: left;
+	text-align: justify; 
+	margin: 0px;
+	padding-right: 2%;
+}
+.foot-third{
+	width: 20%;
+	float: left;
+	text-align: justify; 
+	margin: 0px;
+	padding-right: 2%;
+}
+.foot-fourth{
+	width: 20%;
+	float: left;
+	text-align: justify; 
+	margin: 0px;
+	padding-right: 2%;
+}
+h2{
+	padding-left: 15px;
+}
+ol {
+    margin: 0px;
+}
+ol li{
+	  padding-top: 5px;
+}
+
+ul {
+    margin: 0px;
+    padding-top: 20px;
+}
+ul li{
+	  padding-top: 5px;
+}
+footer{
+	clear:both; 
+	color : #656565;
+	padding-top:25px;
+	padding-bottom: 25px;
+	padding-left: 15px;
+}
